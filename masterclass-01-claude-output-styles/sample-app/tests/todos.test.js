@@ -8,7 +8,7 @@ describe('Todo API', () => {
         .get('/')
         .expect(200);
       
-      expect(res.body.message).toBe('Todo API is running!');
+      expect(res.body.message).toBe('Todo API is running!!!');
     });
   });
 
