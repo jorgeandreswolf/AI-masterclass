@@ -37,6 +37,12 @@ By the end of this session, your team will understand:
 
 ### 2. Built-in Output Styles Demo (20 minutes)
 
+**Demo Setup:**
+- Start server: `npm start` (in sample-app directory)
+- Open browser: `http://localhost:3000`
+- Show the GUI interface to your audience
+- Click red "Test Empty Todo" button to demonstrate the bug
+
 #### A. Default Style (5 minutes)
 **Scenario:** Add input validation to the todo API endpoint
 
@@ -46,14 +52,17 @@ By the end of this session, your team will understand:
 - Minimal explanation, maximum productivity
 
 **Live Demo:**
-```
-Ask Claude: "Add input validation to the POST /todos endpoint"
-```
+1. Show the broken code in `src/routes/todos.js` (lines 29-33)
+2. Ask Claude: "Add input validation to the POST /todos endpoint"
+3. Apply the fix
+4. Test in browser - click red button again to show it's fixed
 
 **Expected Behavior:**
 - Quick, direct code changes
 - Minimal commentary
 - Focus on getting things done
+
+**Reset for next demo:** `git reset --hard HEAD~1`
 
 #### B. Explanatory Style (8 minutes)
 **Command:** `/output-style explanatory`
@@ -65,14 +74,17 @@ Ask Claude: "Add input validation to the POST /todos endpoint"
 - Great for learning codebases and patterns
 
 **Live Demo:**
-```
-Ask Claude: "Add input validation to the POST /todos endpoint"
-```
+1. Switch style: `/output-style explanatory`
+2. Ask Claude: "Add input validation to the POST /todos endpoint"
+3. Show the detailed explanations and insights
+4. Apply the fix and test in browser
 
 **Expected Behavior:**
 - Detailed explanations of design decisions
 - Security considerations explained
 - Pattern explanations and best practices
+
+**Reset for next demo:** `git reset --hard HEAD~1`
 
 #### C. Learning Style (7 minutes)
 **Command:** `/output-style learning`
@@ -84,14 +96,17 @@ Ask Claude: "Add input validation to the POST /todos endpoint"
 - Skill development focus
 
 **Live Demo:**
-```
-Ask Claude: "Add input validation to the POST /todos endpoint"
-```
+1. Switch style: `/output-style learning`
+2. Ask Claude: "Add input validation to the POST /todos endpoint"
+3. Show the TODO(human) markers and collaborative approach
+4. Apply the fix and test in browser
 
 **Expected Behavior:**
 - Implementation structure provided
 - Human collaboration requested
 - Learning opportunities highlighted
+
+**Reset for next demo:** `git reset --hard HEAD~1`
 
 ### 3. Command Usage & Configuration (10 minutes)
 
