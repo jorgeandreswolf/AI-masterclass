@@ -1,0 +1,18 @@
+{
+  "cursor.ai.enableCodeSuggestions": true,
+  "cursor.ai.enableAutoCompletions": true,
+  "cursor.ai.model": "claude-3.5-sonnet",
+  "cursor.ai.contextFiles": [
+    "CLAUDE.md",
+    ".cursor/rules/claude-context.md"
+  ],
+  "cursor.ai.useProjectRules": true,
+  "cursor.ai.autoIncludeProjectContext": true,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/.DS_Store": true
+  }
+}
+
